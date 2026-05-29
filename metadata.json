@@ -1,0 +1,6 @@
+{
+  "name": "Live Readme",
+  "description": "A developer tool for building Shields.io badges and live-previewing GitHub-Flavored Markdown.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
