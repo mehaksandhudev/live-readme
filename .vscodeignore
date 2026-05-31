@@ -1,5 +1,6 @@
 .vscode/**
 .github/**
+.vercel/**
 src/**
 node_modules/**
 dist/**
@@ -15,3 +16,4 @@ metadata.json
 index.html
 package-lock.json
 .gitignore
+vercel.json

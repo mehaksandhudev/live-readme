@@ -33,9 +33,9 @@ __export(extension_exports, {
   deactivate: () => deactivate
 });
 module.exports = __toCommonJS(extension_exports);
-var vscode = __toESM(require("vscode"), 1);
-var path = __toESM(require("path"), 1);
-var fs = __toESM(require("fs"), 1);
+var vscode = __toESM(require("vscode"));
+var path = __toESM(require("path"));
+var fs = __toESM(require("fs"));
 function activate(context) {
   let disposable = vscode.commands.registerCommand("live-readme.openPreview", () => {
     const panel = vscode.window.createWebviewPanel(
