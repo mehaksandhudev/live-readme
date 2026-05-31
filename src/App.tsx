@@ -8,7 +8,7 @@ import React, { useState } from 'react';
 import BadgeBuilder from './components/BadgeBuilder';
 import MarkdownPreview from './components/MarkdownPreview';
 import VSCodeSimulator from './components/VSCodeSimulator';
-import appLogo from './assets/images/app_logo_new.png';
+import appLogo from '@/assets/icon.png';
 import { 
   Shield, Monitor, Sparkles, Github
 } from 'lucide-react';
