@@ -1,10 +1,26 @@
 node_modules/
-build/
 dist/
-coverage/
-.DS_Store
-*.log
-.env*
+dist-extension/
+
+# Build artifacts
+*.vsix
+
+# Environment
+.env
+.env.*
 !.env.example
 
-.vercel
+# Vercel internal
+.vercel/
+
+# AI Studio internal
+assets/.aistudio/
+metadata.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+*.log
