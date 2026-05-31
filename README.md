@@ -4,11 +4,11 @@
 
 # Live Readme Studio
 
-[![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=mehaksandhudev.live-readme-studio)
-[![Open VSX](https://img.shields.io/badge/Open%20VSX-Antigravity%20IDE-purple?style=flat-square&logo=vscodium&logoColor=white)](https://open-vsx.org/extension/mehaksandhudev/live-readme-studio)
-[![Docker Hub](https://img.shields.io/docker/pulls/mehakxsandhu/live-readme?style=flat-square&logo=docker&logoColor=white&label=Docker%20Hub)](https://hub.docker.com/repository/docker/mehakxsandhu/live-readme)
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/mehaksandhudev.live-readme-studio?style=flat-square&label=VS%20Code&logo=visualstudiocode&logoColor=white&color=007ACC)](https://marketplace.visualstudio.com/items?itemName=mehaksandhudev.live-readme-studio)
+[![Open VSX](https://img.shields.io/open-vsx/v/mehaksandhudev/live-readme-studio?style=flat-square&label=Open%20VSX&logo=vscodium&logoColor=white&color=purple)](https://open-vsx.org/extension/mehaksandhudev/live-readme-studio)
+[![Docker Hub](https://img.shields.io/docker/pulls/mehakxsandhu/live-readme?style=flat-square&logo=docker&logoColor=white&label=Docker%20Hub&color=2496ED)](https://hub.docker.com/repository/docker/mehakxsandhu/live-readme)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square&logo=opensourceinitiative&logoColor=white)](LICENSE)
-[![Vercel](https://img.shields.io/badge/Web%20App-live--readme.mehak--sandhu.in-black?style=flat-square&logo=vercel&logoColor=white)](https://live-readme.mehak-sandhu.in)
+[![Web App](https://img.shields.io/badge/Web%20App-live--readme.mehak--sandhu.in-black?style=flat-square&logo=vercel&logoColor=white)](https://live-readme.mehak-sandhu.in)
 
 **An interactive GFM Markdown editor, Shields.io badge builder, and VS Code webview simulator — all in one panel.**  
 Available as a VS Code extension, web app, and Docker image.

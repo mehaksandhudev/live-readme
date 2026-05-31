@@ -3,7 +3,6 @@
 .vercel/**
 src/**
 node_modules/**
-dist/**
 .env
 .env.*
 .dockerignore
