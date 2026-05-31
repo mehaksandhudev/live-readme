@@ -1,13 +1,14 @@
 /**
  * @license
- * SPDX-License-Identifier: Apache-2.0
+ * SPDX-License-Identifier: MIT
+ * Copyright (c) 2026 Mehak Sandhu
  */
 
 import React, { useState } from 'react';
 import BadgeBuilder from './components/BadgeBuilder';
 import MarkdownPreview from './components/MarkdownPreview';
 import VSCodeSimulator from './components/VSCodeSimulator';
-import appLogo from './assets/images/app_logo_1780043448093.png';
+import appLogo from './assets/images/app_logo_new.png';
 import { 
   Shield, Monitor, Sparkles, Github
 } from 'lucide-react';
@@ -96,8 +97,8 @@ export default function App() {
           <div className="flex items-center space-x-3 flex-shrink-0 self-start md:self-auto bg-slate-50 px-4 py-3.5 rounded-xl border border-slate-100">
             <Github className="w-4 h-4 text-slate-700" />
             <div className="text-left font-mono text-xs">
-              <span className="block text-slate-400 text-[9px] leading-none uppercase">Open Source Registry</span>
-              <span className="font-semibold text-slate-700 text-[11px]">MIT Permissive Suite</span>
+              <span className="block text-slate-400 text-[9px] leading-none uppercase">Open Source</span>
+              <span className="font-semibold text-slate-700 text-[11px]">MIT License</span>
             </div>
           </div>
         </div>
@@ -122,7 +123,7 @@ export default function App() {
 
       {/* Visual Footer Credit - Minimal, beautiful and clean */}
       <footer className="max-w-6xl mx-auto px-6 mt-16 text-center text-xs text-slate-400">
-        <p>© 2026 Live Readme. Built using GFM Marked Compilation.</p>
+        <p>© 2026 <a href="https://mehak-sandhu.in" className="text-indigo-500 hover:underline" target="_blank" rel="noreferrer">Mehak Sandhu</a> · Live Readme · MIT License</p>
         <div className="flex justify-center space-x-4 mt-2 font-mono text-[9px]">
           <span>Interactive Shields API v2</span>
           <span>•</span>

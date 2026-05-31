@@ -1,0 +1,17 @@
+.vscode/**
+.github/**
+src/**
+node_modules/**
+dist/**
+.env
+.env.*
+.dockerignore
+Dockerfile
+nginx.conf
+*.vsix
+vite.config.ts
+tsconfig.json
+metadata.json
+index.html
+package-lock.json
+.gitignore

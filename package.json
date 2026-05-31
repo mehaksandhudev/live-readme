@@ -1,36 +1,98 @@
 {
-  "name": "react-example",
-  "private": true,
-  "version": "0.0.0",
+  "name": "live-readme-studio",
+  "displayName": "Live Readme & Badge Designer",
+  "description": "Interactive GFM Markdown live preview, Shields.io badge builder, and VS Code webview simulator — all in one panel.",
+  "version": "1.1.0",
   "type": "module",
+  "publisher": "mehaksandhudev",
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "homepage": "https://mehak-sandhu.in",
+  "bugs": {
+    "url": "https://github.com/mehaksandhudev/live-readme/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehaksandhudev/live-readme.git"
+  },
+  "galleryBanner": {
+    "color": "#0f172a",
+    "theme": "dark"
+  },
+  "keywords": [
+    "markdown",
+    "readme",
+    "badges",
+    "shields",
+    "gfm"
+  ],
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Visualization",
+    "Formatters",
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./dist-extension/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "live-readme.openPreview",
+        "title": "Live Readme: Open Interactive Preview",
+        "category": "Live Readme",
+        "icon": "$(open-preview)"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "live-readme.openPreview",
+          "group": "navigation",
+          "when": "editorLangId == markdown"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "live-readme.openPreview",
+          "when": "editorLangId == markdown"
+        }
+      ]
+    }
+  },
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
-    "build": "vite build",
-    "preview": "vite preview",
-    "clean": "rm -rf dist server.js",
-    "lint": "tsc --noEmit"
+    "build:web": "vite build",
+    "build:extension": "esbuild src/extension.ts --bundle --platform=node --outfile=dist-extension/extension.js --external:vscode --format=cjs",
+    "build": "npm run build:web && npm run build:extension",
+    "clean": "rm -rf dist dist-extension server.js",
+    "lint": "tsc --noEmit",
+    "package": "vsce package",
+    "publish": "vsce publish"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
     "@tailwindcss/typography": "^0.5.19",
-    "@tailwindcss/vite": "^4.1.14",
-    "@vitejs/plugin-react": "^5.0.4",
     "dotenv": "^17.2.3",
-    "express": "^4.21.2",
     "highlight.js": "^11.11.1",
     "lucide-react": "^0.546.0",
     "marked": "^18.0.4",
     "marked-highlight": "^2.2.4",
     "motion": "^12.23.24",
     "react": "^19.0.1",
-    "react-dom": "^19.0.1",
-    "vite": "^6.2.3"
+    "react-dom": "^19.0.1"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.1.14",
     "@types/express": "^4.17.21",
     "@types/node": "^22.14.0",
+    "@types/vscode": "^1.90.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "@vscode/vsce": "^3.5.0",
     "autoprefixer": "^10.4.21",
     "esbuild": "^0.25.0",
+    "express": "^4.21.2",
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",
