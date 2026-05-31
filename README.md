@@ -9,7 +9,6 @@
 [![Docker Hub](https://img.shields.io/docker/pulls/mehakxsandhu/live-readme?style=flat-square&logo=docker&logoColor=white&label=Docker%20Hub&color=2496ED)](https://hub.docker.com/repository/docker/mehakxsandhu/live-readme)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square&logo=opensourceinitiative&logoColor=white)](LICENSE)
 [![Web App](https://img.shields.io/badge/Web%20App-live--readme.mehak--sandhu.in-black?style=flat-square&logo=vercel&logoColor=white)](https://live-readme.mehak-sandhu.in)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-☕-FFDD00?style=flat-square&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/mehaksandhudev)
 
 **An interactive GFM Markdown editor, Shields.io badge builder, and VS Code webview simulator — all in one panel.**  
 Available as a VS Code extension, web app, and Docker image.
@@ -261,6 +260,14 @@ Please open an [issue](https://github.com/mehaksandhudev/live-readme/issues) fir
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-mehak--sandhu.in-indigo?style=flat-square&logo=safari)](https://mehak-sandhu.in)
 [![GitHub](https://img.shields.io/badge/GitHub-mehaksandhudev-black?style=flat-square&logo=github)](https://github.com/mehaksandhudev)
+
+---
+
+## ☕ Support
+
+If this project helped you, consider buying me a coffee!
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-☕-FFDD00?style=flat-square&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/mehaksandhudev)
 
 ---
 
