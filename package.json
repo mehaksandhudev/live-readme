@@ -2,7 +2,7 @@
   "name": "live-readme-studio",
   "displayName": "Live Readme & Badge Designer",
   "description": "Interactive GFM Markdown live preview, Shields.io badge builder, and VS Code webview simulator — all in one panel.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "publisher": "mehaksandhudev",
   "license": "MIT",
   "icon": "assets/icon.png",
