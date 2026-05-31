@@ -113,4 +113,4 @@ live-readme/
 
 ## 📄 License
 
-MIT © [Mehak Sandhu](https://mehak-sandhu.in)
+MIT © [Mehak Sandhu](https://mehak-sandhu.in) · [live-readme.mehak-sandhu.in](https://live-readme.mehak-sandhu.in)
