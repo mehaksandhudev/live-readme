@@ -275,3 +275,12 @@ If this project helped you, consider supporting via [PayPal](https://paypal.me/m
 ## 📄 License
 
 MIT © [Mehak Sandhu](https://mehak-sandhu.in) — see [LICENSE](LICENSE) for details.
+
+---
+
+<div align="center">
+
+Crafted with ❤️ by **[Mehak Sandhu](https://github.com/mehaksandhudev)** • [Portfolio](https://www.mehak-sandhu.in)
+
+</div>
+
